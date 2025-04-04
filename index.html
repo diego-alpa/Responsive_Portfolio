@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Técnico en Diseño y Desarrollo de Software</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <span>Diego Patiño</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <nav class="desktop-menu">
+                <a href="#home" class="menu-item active">Home</a>
+                <a href="#about" class="menu-item">Conoceme</a>
+                <a href="#skills" class="menu-item">Skills</a>
+                <a href="#specialization" class="menu-item">Especialización</a>
+                <a href="#contact" class="menu-item">contacto</a>
+                
+            </nav>
+            
+            <!-- Mobile Menu Button -->
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Sidebar -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <span>Menú</span>
+            <button class="close-menu" id="closeMenu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <nav class="mobile-menu-items">
+            <ul>
+                <li><a href="#home" class="mobile-menu-item"><i class="fas fa-briefcase"></i> Home</a></li>
+                <li><a href="#about" class="mobile-menu-item"><i class="fas fa-user"></i> Conoceme</a></li>
+                <li><a href="#skills" class="mobile-menu-item"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#specialization" class="mobile-menu-item"><i class="fas fa-chevron-right"></i> Especialización</a></li>
+                <li><a href="#contact" class="mobile-menu-item"><i class="fas fa-envelope"></i> Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Overlay for mobile menu -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Técnico en <span>Diseño</span> y <span>Desarrollo de Software</span></h1>
+                        <p>Creando soluciones digitales efectivas y atractivas para impulsar tu negocio.</p>
+                        <a href="#contact" class="btn primary-btn">Contactame</a>
+                    </div>
+                    <div class="hero-image">
+                        <video autoplay loop muted>
+                            <source src="media/Animation.webm" type="video/webm">
+                        </video>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+          <!-- About Section -->
+          <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Acerca de <span>mí</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="about-card">
+                            <h3>Perfil Profesional</h3>
+                            <p>
+                                Soy un Técnico en Desarrollo de Software dedicado, con una pasión por crear soluciones digitales elegantes, eficientes y fáciles de usar. Mi enfoque combina la experiencia técnica con la resolución creativa de problemas para ofrecer resultados excepcionales.
+                            </p>
+                            
+                            <div class="highlight-text">
+                                <i class="fas fa-chevron-right"></i>
+                                <span>Siempre aprendiendo, siempre mejorando</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <span>2+</span>
+                                </div>
+                                <h3>Años de experiencia</h3>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <span>15+</span>
+                                </div>
+                                <h3>Proyectos</h3>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <span>5+</span>
+                                </div>
+                                <h3>Tecnologías</h3>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <span>10+</span>
+                                </div>
+                                <h3>Clientes satisfechos</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Mis Habilidades Técnicas</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">🐍</div>
+                        <h3 class="skill-name">Python</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">☕</div>
+                        <h3 class="skill-name">Java</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🌐</div>
+                        <h3 class="skill-name">HTML</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🎯</div>
+                        <h3 class="skill-name">Dart</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">⚛️</div>
+                        <h3 class="skill-name">React</h3>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">📜</div>
+                        <h3 class="skill-name">JavaScript</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specialization Section -->
+        <section id="specialization" class="specialization-section">
+            <div class="container">
+                <h2 class="section-title">Especialización</h2>
+                <div class="specialization-grid">
+                    <div class="specialization-card">
+                        <div class="specialization-icon">🛒</div>
+                        <h3 class="specialization-title">Diseño Web para E-commerce</h3>
+                        <p class="specialization-description">Tiendas online optimizadas y enfocadas en la experiencia del usuario.</p>
+                    </div>
+                    <div class="specialization-card">
+                        <div class="specialization-icon">🎨</div>
+                        <h3 class="specialization-title">Portfolios Profesionales</h3>
+                        <p class="specialization-description">Sitios web personalizados que destacan tu trabajo y habilidades.</p>
+                    </div>
+                    <div class="specialization-card">
+                        <div class="specialization-icon">☁️</div>
+                        <h3 class="specialization-title">Aplicaciones SAAS</h3>
+                        <p class="specialization-description">Desarrollo de software como servicio con interfaces intuitivas para empresas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Informacion de <span>Contacto</span></h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Correo</h3>
+                            <p>diego.alpa108@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>celular</h3>
+                            <p>+51 945 139 965</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>GitHub</h3>
+                            <p>github.com/diego-patino</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/diego-patino-alvis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="currentYear"></span> Diego Patiño. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
