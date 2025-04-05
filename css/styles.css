@@ -244,11 +244,17 @@ a:hover {
     display: block;
 }
 
+/* all section */
+.section{
+    min-height: 100vh;
+    align-content: center;
+}
+
 /* Hero Section */
 .hero-section {
     padding: 8rem 0 4rem;
     background: linear-gradient(to bottom right, #ebf5ff, #f9fafb);
-    min-height: 90vh;
+    /* min-height: 90vh; */
     display: flex;
     align-items: center;
 }
@@ -494,7 +500,7 @@ a:hover {
 /* Contacto */
 .contact-grid{
     display: grid;
-    gap: 1.5em;
+    gap: 2em;
     grid-template-columns: repeat(2, 1fr); /* 2 columnas */
     grid-template-rows: repeat(2, auto); /* 2 filas */
 }
@@ -628,7 +634,7 @@ a:hover {
     }
     
     .contact-card{
-        margin: 20px 0;
+        margin: 40px 0;
     }
     
 }
